@@ -98,7 +98,9 @@ void MainWindow::updateRenameList(bool renameFilesNow)
     QString number = "";
 
     // Number of digits in filename, e.g. nDigits=4->0001, 0002, 0003
-    int nDigits = QString(filenames.size()).size()+1;
+    QString nFiles;
+    nFiles.setNum(filenames.size() + counterBegin);
+    int nDigits = nFiles.size();
 
     // Change each filename
     for (QString filename : filenames) {

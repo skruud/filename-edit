@@ -7,6 +7,7 @@
 #include <QListWidget>
 #include <QUrl>
 #include <QMessageBox>
+#include <QDebug>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

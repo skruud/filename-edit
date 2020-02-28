@@ -176,7 +176,14 @@
        </widget>
       </item>
       <item row="3" column="5">
-       <widget class="QSpinBox" name="spinBoxCounterBegin"/>
+       <widget class="QSpinBox" name="spinBoxCounterBegin">
+        <property name="maximum">
+         <number>99999999</number>
+        </property>
+        <property name="value">
+         <number>1</number>
+        </property>
+       </widget>
       </item>
       <item row="3" column="4" alignment="Qt::AlignRight">
        <widget class="QLabel" name="label_7">
